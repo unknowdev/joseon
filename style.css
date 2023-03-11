@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  html, body {
+    height: 100%;
+    background-color: gainsboro;
+  }
+  iframe{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  h1, .footer, #press_enter_note{
+    
+    font-family: '宋体';
+    font-weight: normal;
+    color: black;
+  }
+  .mx-auto {
+    align-items: center;
+    background-color: darkgoldenrod;
+
+    width: 100%;
+  }
+  .jumbotron {
+    margin-top: 0px;
+    float: left; min-height: 100%;
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    display: block;
+  }
+  #content_of_text{
+    display: block;
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    background-color: whitesmoke;
+  }
+  /*Search results */
+  a:link {
+    color: rgb(38, 59, 214);
+  }
+  
+  a:active {
+    color: #de2f29;
+  }
+  
+  a:visited {
+    color: #8c0f9a;
+  }
+  
+  /*Sticky Footer*/
+  
+  .footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    height: 60px;
+    background-size: 100% 300px;
+    clear: both;
+    background-color: darkred;
+    display: block;
+    height: 99px;
+  }
+  #wiki-results, #press_enter_note {
+    padding-left: 5px;
+  }
+  #footer-square{
+    text-align: center;
+    color: wheat;
+  }
+  /*Input form*/
+  #wiki-search-input {
+    width: 200px;
+    height: 35px;
+    padding-left: 5px;
+  }
+  #nav_logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+    max-width: 100%;
+    max-height: auto;
+  }  
+  #nav_title {
+    max-width: 100%; 
+    max-height: auto;
+    margin-top: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
